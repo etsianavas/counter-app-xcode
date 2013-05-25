@@ -25,7 +25,8 @@
 		B2C074F2174E7D6300F94D6B /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C074EA174E7D6300F94D6B /* Button@2x.png */; };
 		B2C074F3174E7D6300F94D6B /* ButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C074EB174E7D6300F94D6B /* ButtonHighlighted.png */; };
 		B2C074F4174E7D6300F94D6B /* ButtonHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C074EC174E7D6300F94D6B /* ButtonHighlighted@2x.png */; };
-		B2C074F8174E7D6300F94D6B /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C074F0174E7D6300F94D6B /* Screen.png */; };
+		B2CE03BD1751150B00FB6037 /* Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = B2CE03BC1751150B00FB6037 /* Screen.png */; };
+		B2CE03BF1751185E00FB6037 /* calcula.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2CE03BE1751185E00FB6037 /* calcula.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +53,8 @@
 		B2C074EA174E7D6300F94D6B /* Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button@2x.png"; path = "../../../../Dropbox/mac/img/Button@2x.png"; sourceTree = "<group>"; };
 		B2C074EB174E7D6300F94D6B /* ButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonHighlighted.png; path = ../../../../Dropbox/mac/img/ButtonHighlighted.png; sourceTree = "<group>"; };
 		B2C074EC174E7D6300F94D6B /* ButtonHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ButtonHighlighted@2x.png"; path = "../../../../Dropbox/mac/img/ButtonHighlighted@2x.png"; sourceTree = "<group>"; };
-		B2C074F0174E7D6300F94D6B /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Screen.png; path = ../../../../Dropbox/mac/img/Screen.png; sourceTree = "<group>"; };
+		B2CE03BC1751150B00FB6037 /* Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen.png; sourceTree = "<group>"; };
+		B2CE03BE1751185E00FB6037 /* calcula.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = calcula.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,14 +114,8 @@
 		B25BAB7A174CE1FC00E4A053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B242DA18174E806300B81F40 /* Background-568h@2x.png */,
-				B242DA19174E806300B81F40 /* Background.png */,
-				B242DA1A174E806300B81F40 /* Background@2x.png */,
-				B2C074E9174E7D6300F94D6B /* Button.png */,
-				B2C074EA174E7D6300F94D6B /* Button@2x.png */,
-				B2C074EB174E7D6300F94D6B /* ButtonHighlighted.png */,
-				B2C074EC174E7D6300F94D6B /* ButtonHighlighted@2x.png */,
-				B2C074F0174E7D6300F94D6B /* Screen.png */,
+				B2CE03C11751191600FB6037 /* fonts */,
+				B2CE03C0175118FC00FB6037 /* images */,
 				B25BAB7B174CE1FC00E4A053 /* hello-Info.plist */,
 				B25BAB7C174CE1FC00E4A053 /* InfoPlist.strings */,
 				B25BAB7F174CE1FC00E4A053 /* main.m */,
@@ -129,6 +125,29 @@
 				B25BAB89174CE1FD00E4A053 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2CE03C0175118FC00FB6037 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE03BC1751150B00FB6037 /* Screen.png */,
+				B242DA18174E806300B81F40 /* Background-568h@2x.png */,
+				B242DA19174E806300B81F40 /* Background.png */,
+				B242DA1A174E806300B81F40 /* Background@2x.png */,
+				B2C074E9174E7D6300F94D6B /* Button.png */,
+				B2C074EA174E7D6300F94D6B /* Button@2x.png */,
+				B2C074EB174E7D6300F94D6B /* ButtonHighlighted.png */,
+				B2C074EC174E7D6300F94D6B /* ButtonHighlighted@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		B2CE03C11751191600FB6037 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE03BE1751185E00FB6037 /* calcula.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,10 +211,11 @@
 				B2C074F2174E7D6300F94D6B /* Button@2x.png in Resources */,
 				B2C074F3174E7D6300F94D6B /* ButtonHighlighted.png in Resources */,
 				B2C074F4174E7D6300F94D6B /* ButtonHighlighted@2x.png in Resources */,
-				B2C074F8174E7D6300F94D6B /* Screen.png in Resources */,
 				B242DA1B174E806300B81F40 /* Background-568h@2x.png in Resources */,
 				B242DA1C174E806300B81F40 /* Background.png in Resources */,
 				B242DA1D174E806300B81F40 /* Background@2x.png in Resources */,
+				B2CE03BD1751150B00FB6037 /* Screen.png in Resources */,
+				B2CE03BF1751185E00FB6037 /* calcula.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

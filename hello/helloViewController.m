@@ -28,8 +28,8 @@
 	
 	self.imageView.image = [UIImage imageNamed:backgroundFilename];
 
-	label.font = [UIFont fontWithName:@"DBLCDTempBlack" size:40.0];
-	//label.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Screen.png"]];
+	label.font = [UIFont fontWithName:@"Calcula" size:72.0];
+	label.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Screen.png"]];
 	
 	UIImage *btn = [UIImage imageNamed:@"Button.png"];
 	UIImage *btnH = [UIImage imageNamed:@"ButtonHighlighted.png"];
